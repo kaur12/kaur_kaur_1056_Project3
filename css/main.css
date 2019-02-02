@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+p
+{
+	color: #fff;
+	line-height: 100px;
+	/*background: #000;*/
+	text-align: center;
+	margin: auto;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 18px;
+}
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none; /*Remove border if image is a link*/
+	margin: 0; 
+	padding: 0; 
+}
+
+body 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 960px;
+	padding-left: 35px;
+	padding-right: 50px;
+}
+
+#header
+{
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+	border-top: solid 20px #000;
+}
+
+#logo
+{
+	width: 130px;
+	height: 130px;
+	margin-top: 30px;
+	margin-left: 20px;
+	background-color: #000;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#searchForm
+{
+	/*margin-bottom: 10px;*/
+	margin-top: 40px;
+	margin-left: auto;
+}
+
+#searchForm input
+{
+	width: 150px;
+	padding: 10px 20px 10px 40px; /*trbl*/
+	/*background: url(../images/search_icon.png) no-repeat 10px 6px #000;
+	border: 1px solid #d1d1d1;
+	border-radius: 20px;
+	text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15) inset;*/
+	background-color: #000;
+
+}
+
+ul
+{
+	width: 700px;
+	height: 60px;
+	background-color: #000;
+	margin-top: 25px;	
+}
+
+
+
+#promoImage
+{
+	width:840px;
+	height: 220px;
+	background-color: #000;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #DDD;
+}
+
+#promoText
+{
+	width: 960px;
+	height: 100px;
+	background-color: #000;
+}
+
+#promoDesc
+{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+#promodesc1 div
+{
+	width: 250px;
+	height: 188px;
+	background-color: #000;
+	margin-top: 25px;
+	margin-left: 35px;
+}
+
+#promodesc2 div
+{
+	width: 250px;
+	height: 188px;
+	background-color: #000;
+	margin-top: 25px;
+	margin-left: 70px;
+}
+
+#promodesc3 div
+{
+	width: 250px;
+	height: 188px;
+	background-color: #000;
+	margin-top: 25px;
+	margin-left: 70px;
+}
+
+#labeling
+{
+	color: #fff;
+	line-height: 100px;
+	/*background: #000;*/
+	text-align: center;
+	margin: auto;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 18px;
+}
+
+#promodesc1 p
+{
+	width: 250px;
+	height: 100px;
+	background-color: #000;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+
+#promodesc2 p
+{
+	width: 250px;
+	height: 100px;
+	background-color: #000;
+	margin-left: 70px;
+	margin-top: 15px;
+}
+
+#promodesc3 p
+{
+	width: 250px;
+	height: 100px;
+	background-color: #000;
+	margin-left: 70px;
+	margin-top: 15px;
+}
+
+#Footer
+{
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+  	border-top: solid 1px #DDD;
+}
+
+#footerNav
+{
+	width: 700px;
+	height: 60px;
+	margin-top: -10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+
+
+
+#footer_info2
+{
+	width: 280px;
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 40px;
+	background-color: #000;
+	align-content: center;
+	padding-left: 20px;
+
+}
+
+/*aboutus body content*/
+
+#body
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+#membership
+{
+	width: 150px;
+	height: 700px;
+	background-color: #000;
+}
+
+#bodyText
+{
+	width: 700px;
+	height: 200px;
+	background-color: #000;
+}
+
+#bodyImage1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+#Img1
+{
+	width: 350px;
+	height: 200px;
+	background-color: #000;
+}
+
+#bodyImage1 p
+{
+	width: 300px;
+	height: 200px;
+	background-color: #000;
+}
+
+#bodyImage2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#bodyImage2 p
+{
+	width: 300px;
+	height: 200px;
+	background-color: #000;
+}
+
+#Img2
+{
+	width: 350px;
+	height: 200px;
+	background-color: #000;
+}
