@@ -158,7 +158,8 @@ ul
 	line-height: 100px;
 	/*background: #000;*/
 	text-align: center;
-	margin: auto;
+	margin: 80px;
+	padding-top: 20px;
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 18px;
 }
@@ -227,7 +228,6 @@ ul
 }
 
 /*aboutus body content*/
-
 #body
 {
 	display: flex;
